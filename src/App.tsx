@@ -1,7 +1,15 @@
 import React from 'react';
-
+import Header from './Components/Header';
+import Nav from './Components/Nav';
+import Profile from './Components/Profile';
 function App() {
-    return <div className="App">Hello</div>;
+  return (
+    <div className="app-wrapper">
+      <Header />
+      <Nav />
+      <Profile />
+    </div>
+  );
 }
 
 export default App;
